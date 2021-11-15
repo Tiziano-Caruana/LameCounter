@@ -1,0 +1,72 @@
+@font-face {
+   font-family: Nunito;
+   src: url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+   font-weight: normal;
+}
+
+
+* {
+   font-family: Nunito;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+   width: 10px;
+   
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: none;
+   border-radius: 10px;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #888;
+   border-radius: 10px;
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: rgb(118, 117, 117);
+}
+
+/* Scrollbar */
+
+/* Text */
+
+p.text-muted::selection {
+   background: #6c757daa;
+   color: white;
+}
+
+h3::selection {
+   background: #212529f5;
+   color: white;
+}
+
+/* Text */
+
+/* Custom */
+
+.box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+.vh-custom{
+   height: 85vh;
+}
+
+button{
+   padding: 15px;
+   font-size: 16px;
+   border: none;
+   background-color: #f8f9fa;
+}
+
+/* Custom */
